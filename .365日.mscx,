@@ -88,7 +88,6 @@
           </Articulation>
         <Channel>
           <program value="0"/>
-          <controller ctrl="7" value="105"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -153,7 +152,6 @@
           </Articulation>
         <Channel>
           <program value="0"/>
-          <controller ctrl="7" value="94"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -218,7 +216,6 @@
           </Articulation>
         <Channel>
           <program value="0"/>
-          <controller ctrl="7" value="94"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -283,7 +280,7 @@
           </Articulation>
         <Channel>
           <program value="0"/>
-          <controller ctrl="7" value="94"/>
+          <controller ctrl="7" value="98"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -348,7 +345,6 @@
           </Articulation>
         <Channel>
           <program value="0"/>
-          <controller ctrl="7" value="95"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -596,7 +592,6 @@
           <controller ctrl="0" value="1"/>
           <controller ctrl="32" value="0"/>
           <program value="0"/>
-          <controller ctrl="7" value="95"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -2265,7 +2260,7 @@
       <Measure>
         <voice>
           <SystemText>
-            <text>6連続ベルトーン→Ⅰ7でⅣへのきっかけに</text>
+            <text>6連続ベルトーン→Ⅰ7でⅣへの</text>
             </SystemText>
           <Chord>
             <durationType>eighth</durationType>
@@ -3657,15 +3652,8 @@
           <Rest>
             <durationType>16th</durationType>
             </Rest>
-          <Dynamic>
-            <subtype>mf</subtype>
-            <velocity>80</velocity>
-            </Dynamic>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>た</text>
-              </Lyrics>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -3681,9 +3669,6 @@
           <Chord>
             <dots>1</dots>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>とえ</text>
-              </Lyrics>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -3692,9 +3677,6 @@
           <Chord>
             <dots>1</dots>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>ばじ</text>
-              </Lyrics>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -3702,9 +3684,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>ゆう</text>
-              </Lyrics>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -3750,9 +3729,6 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>た</text>
-              </Lyrics>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -3760,9 +3736,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>とえ</text>
-              </Lyrics>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -3770,9 +3743,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>ばゆ</text>
-              </Lyrics>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -3780,9 +3750,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>め</text>
-              </Lyrics>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -3803,8 +3770,8 @@
       <Measure>
         <voice>
           <Harmony>
-            <root>13</root>
-            <name>m7</name>
+            <root>10</root>
+            <name>6</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -3829,19 +3796,13 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>た</text>
-              </Lyrics>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>て</text>
-              </Lyrics>
+            <durationType>eighth</durationType>
             <Note>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -3849,19 +3810,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>に</text>
-              </Lyrics>
-            <Note>
-              <pitch>56</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>して</text>
-              </Lyrics>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -3869,9 +3817,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>た</text>
-              </Lyrics>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -3913,14 +3858,15 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>ど</text>
-              </Lyrics>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -3932,9 +3878,6 @@
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>ん</text>
-              </Lyrics>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -3942,9 +3885,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>な</text>
-              </Lyrics>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
@@ -3953,9 +3893,6 @@
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>フレー</text>
-              </Lyrics>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -3967,9 +3904,6 @@
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>ズ</text>
-              </Lyrics>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
@@ -3977,9 +3911,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>も</text>
-              </Lyrics>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -4024,9 +3955,6 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>ち</text>
-              </Lyrics>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -4034,9 +3962,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>か</text>
-              </Lyrics>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -4044,9 +3969,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>ら</text>
-              </Lyrics>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -4054,9 +3976,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>を</text>
-              </Lyrics>
             <Note>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -4068,9 +3987,6 @@
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>な</text>
-              </Lyrics>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -4078,9 +3994,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>くし</text>
-              </Lyrics>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -4088,9 +4001,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>たん</text>
-              </Lyrics>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -4113,9 +4023,6 @@
           <Harmony>
             <root>14</root>
             </Harmony>
-          <SystemText>
-            <text>Ⅵ→Ⅱ→Ⅴ→Ⅰ</text>
-            </SystemText>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4133,19 +4040,7 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>だ</text>
-              </Lyrics>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/16</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>51</pitch>
               <tpc>11</tpc>
               </Note>
@@ -4154,13 +4049,6 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/16</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>51</pitch>
               <tpc>11</tpc>
               </Note>
@@ -4168,14 +4056,15 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          <Rest>
+          <Chord>
             <durationType>16th</durationType>
-            </Rest>
+            <Note>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>き</text>
-              </Lyrics>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -4183,9 +4072,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>み</text>
-              </Lyrics>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -4193,9 +4079,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>が</text>
-              </Lyrics>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -4207,8 +4090,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           </voice>
@@ -4226,19 +4109,15 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Harmony>
             <root>13</root>
-            <name>m</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>はな</text>
-              </Lyrics>
             <Note>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -4246,9 +4125,6 @@
             </Chord>
           <Chord>
             <durationType>half</durationType>
-            <Lyrics>
-              <text>つ</text>
-              </Lyrics>
             <Note>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -4262,9 +4138,6 @@
             </Rest>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>い</text>
-              </Lyrics>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -4276,9 +4149,6 @@
         <voice>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>な</text>
-              </Lyrics>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -4286,9 +4156,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>び</text>
-              </Lyrics>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -4297,9 +4164,6 @@
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>か</text>
-              </Lyrics>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -4307,9 +4171,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>り</text>
-              </Lyrics>
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -4318,9 +4179,6 @@
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>に</text>
-              </Lyrics>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -4328,43 +4186,28 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>み　</text>
-              </Lyrics>
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <SystemText>
-            <text>Ⅴsus4</text>
-            </SystemText>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>せ</text>
-              </Lyrics>
             <Note>
               <pitch>56</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>ら</text>
-              </Lyrics>
+            <durationType>16th</durationType>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-7/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -4373,51 +4216,21 @@
         </Measure>
       <Measure>
         <voice>
-          <SystemText>
-            <text>1add9</text>
-            </SystemText>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>れ</text>
-              </Lyrics>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>7/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>て</text>
-              </Lyrics>
-            <Note>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
@@ -4425,9 +4238,6 @@
             </Rest>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>ひ</text>
-              </Lyrics>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -4439,9 +4249,6 @@
         <voice>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>と</text>
-              </Lyrics>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -4449,9 +4256,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>り</text>
-              </Lyrics>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -4459,9 +4263,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>き</text>
-              </Lyrics>
             <Note>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -4469,9 +4270,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>り</text>
-              </Lyrics>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -4479,9 +4277,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>の</text>
-              </Lyrics>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -4495,9 +4290,6 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>ほ</text>
-              </Lyrics>
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -4509,9 +4301,6 @@
         <voice>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>う</text>
-              </Lyrics>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -4519,19 +4308,13 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>が</text>
-              </Lyrics>
             <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>き</text>
-              </Lyrics>
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -4540,9 +4323,6 @@
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>らく</text>
-              </Lyrics>
             <Note>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -4550,9 +4330,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>で</text>
-              </Lyrics>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -4560,9 +4337,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>いい</text>
-              </Lyrics>
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -4570,9 +4344,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>や</text>
-              </Lyrics>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -4585,11 +4356,11 @@
             <offset x="5" y="0"/>
             <durationType>eighth</durationType>
             </Rest>
+          <Rest>
+            <durationType>16th</durationType>
+            </Rest>
           <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>そん</text>
-              </Lyrics>
+            <durationType>16th</durationType>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -4599,14 +4370,8 @@
         </Measure>
       <Measure>
         <voice>
-          <SystemText>
-            <text>Ⅱ→Ⅲ→Ⅱ</text>
-            </SystemText>
           <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>な</text>
-              </Lyrics>
+            <durationType>eighth</durationType>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -4614,19 +4379,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>おく</text>
-              </Lyrics>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>く</text>
-              </Lyrics>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -4635,9 +4387,6 @@
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>びょう</text>
-              </Lyrics>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -4645,9 +4394,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>な</text>
-              </Lyrics>
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -4656,9 +4402,6 @@
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>いい</text>
-              </Lyrics>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -4666,9 +4409,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>の</text>
-              </Lyrics>
             <Note>
               <pitch>56</pitch>
               <tpc>10</tpc>
@@ -4677,9 +4417,6 @@
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>が</text>
-              </Lyrics>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -4687,9 +4424,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>れ</text>
-              </Lyrics>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -4697,9 +4431,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>は</text>
-              </Lyrics>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -4742,9 +4473,6 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>お</text>
-              </Lyrics>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -4753,9 +4481,6 @@
           <Chord>
             <dots>1</dots>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>わ</text>
-              </Lyrics>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -4764,9 +4489,6 @@
           <Chord>
             <dots>1</dots>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>り</text>
-              </Lyrics>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -4774,9 +4496,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <text>にし</text>
-              </Lyrics>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
@@ -4793,13 +4512,10 @@
             <subtype>f</subtype>
             <velocity>96</velocity>
             </Dynamic>
-          <SystemText>
-            <text>Ⅴ</text>
-            </SystemText>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
-              <text>なく</text>
+              <text>ない</text>
               </Lyrics>
             <Note>
               <pitch>62</pitch>
@@ -4809,7 +4525,7 @@
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
-              <text>ちゃ</text>
+              <text>で</text>
               </Lyrics>
             <Note>
               <pitch>65</pitch>
@@ -4824,6 +4540,16 @@
             <subtype>mf</subtype>
             <velocity>80</velocity>
             </Dynamic>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -4841,9 +4567,13 @@
         </Measure>
       <Measure>
         <voice>
-          <SystemText>
-            <text>Ⅰ</text>
-            </SystemText>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -7503,10 +7233,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>mf</subtype>
-            <velocity>80</velocity>
-            </Dynamic>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -7517,112 +7243,43 @@
             </Spanner>
           <Chord>
             <durationType>half</durationType>
-            <Lyrics>
-              <text>oo</text>
-              </Lyrics>
             <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
               </Note>
             </Chord>
-          <Chord>
+          <Rest>
             <durationType>half</durationType>
-            <Lyrics>
-              <text>too</text>
-              </Lyrics>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Chord>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <ticks>1440</ticks>
-              <ticks_f>3/4</ticks_f>
-              <text>oo</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
             <durationType>half</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/2</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>oh</text>
-              </Lyrics>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <text>oo</text>
-              </Lyrics>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Rest>
-            <durationType>16th</durationType>
+            <durationType>half</durationType>
             </Rest>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>ど</text>
-              </Lyrics>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
-              <text>ん</text>
+              <text>どう</text>
               </Lyrics>
             <Note>
               <pitch>65</pitch>
@@ -7632,7 +7289,7 @@
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
-              <text>な</text>
+              <text>し</text>
               </Lyrics>
             <Note>
               <pitch>67</pitch>
@@ -7643,17 +7300,7 @@
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Lyrics>
-              <text>フレー</text>
-              </Lyrics>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>ズ</text>
+              <text>よう</text>
               </Lyrics>
             <Note>
               <pitch>67</pitch>
@@ -7664,6 +7311,18 @@
             <durationType>16th</durationType>
             <Lyrics>
               <text>も</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <ticks>120</ticks>
+              <ticks_f>1/16</ticks_f>
+              <text>ない</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -7685,7 +7344,7 @@
       <Measure>
         <voice>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -7700,171 +7359,49 @@
               </Note>
             </Chord>
           <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <ticks>1200</ticks>
-              <ticks_f>5/8</ticks_f>
-              <text>ah</text>
-              </Lyrics>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <ticks>480</ticks>
-              <ticks_f>1/4</ticks_f>
-              <text>whoo</text>
-              </Lyrics>
-            <Note>
-              <pitch>68</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <ticks>480</ticks>
-              <ticks_f>1/4</ticks_f>
-              <text>wah</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>too</text>
-              </Lyrics>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
             <durationType>half</durationType>
-            <Lyrics>
-              <text>oh</text>
-              </Lyrics>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Chord>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
             <durationType>half</durationType>
-            <Lyrics>
-              <text>ah</text>
-              </Lyrics>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
+            </Rest>
+          <Rest>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>tun</text>
-              </Lyrics>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
+            </Rest>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
-              <text>ひ</text>
+              <text>お</text>
               </Lyrics>
             <Note>
               <pitch>65</pitch>
@@ -7878,7 +7415,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
-              <text>と</text>
+              <text>なじ</text>
               </Lyrics>
             <Note>
               <pitch>67</pitch>
@@ -7887,16 +7424,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Lyrics>
-              <text>り</text>
-              </Lyrics>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
             <Lyrics>
               <text>き</text>
               </Lyrics>
@@ -7906,9 +7433,30 @@
               </Note>
             </Chord>
           <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>も</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
             <durationType>16th</durationType>
             <Lyrics>
-              <text>り</text>
+              <text>ち</text>
+              </Lyrics>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>で</text>
               </Lyrics>
             <Note>
               <pitch>67</pitch>
@@ -7917,24 +7465,6 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
-            <Lyrics>
-              <text>の</text>
-              </Lyrics>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <ticks>240</ticks>
-              <ticks_f>1/8</ticks_f>
-              <text>fu</text>
-              </Lyrics>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -7950,7 +7480,7 @@
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
-              <text>ほ</text>
+              <text>い</text>
               </Lyrics>
             <Note>
               <pitch>67</pitch>
@@ -7964,7 +7494,7 @@
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
-              <text>う</text>
+              <text>て</text>
               </Lyrics>
             <Note>
               <pitch>65</pitch>
@@ -7974,7 +7504,7 @@
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
-              <text>が</text>
+              <text>く</text>
               </Lyrics>
             <Note>
               <pitch>65</pitch>
@@ -7984,7 +7514,7 @@
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
-              <text>き</text>
+              <text>れ</text>
               </Lyrics>
             <Note>
               <pitch>65</pitch>
@@ -7995,7 +7525,7 @@
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Lyrics>
-              <text>らく</text>
+              <text>た</text>
               </Lyrics>
             <Note>
               <pitch>65</pitch>
@@ -8005,7 +7535,7 @@
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
-              <text>で</text>
+              <text>ら</text>
               </Lyrics>
             <Note>
               <pitch>65</pitch>
@@ -8025,7 +7555,7 @@
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
-              <text>や</text>
+              <text>な</text>
               </Lyrics>
             <Note>
               <pitch>67</pitch>
@@ -8038,11 +7568,6 @@
             </Rest>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <ticks>240</ticks>
-              <ticks_f>1/8</ticks_f>
-              <text>oh</text>
-              </Lyrics>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
@@ -8067,11 +7592,11 @@
       <Measure>
         <voice>
           <Chord>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Lyrics>
-              <ticks>960</ticks>
-              <ticks_f>2/4</ticks_f>
-              <text>ah</text>
+              <ticks>480</ticks>
+              <ticks_f>1/4</ticks_f>
+              <text>whoo</text>
               </Lyrics>
             <Note>
               <pitch>63</pitch>
@@ -8079,17 +7604,11 @@
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
               </Note>
             </Chord>
           </voice>
@@ -8101,24 +7620,15 @@
             <velocity>80</velocity>
             </Dynamic>
           <Chord>
-            <durationType>half</durationType>
+            <durationType>whole</durationType>
             <Lyrics>
               <text>ah</text>
               </Lyrics>
             <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <text>whoo</text>
-              </Lyrics>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           <Breath>
             <symbol>breathMarkUpbow</symbol>
             </Breath>
@@ -8158,22 +7668,10 @@
             <subtype>mf</subtype>
             <velocity>80</velocity>
             </Dynamic>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              </HairPin>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <ticks>960</ticks>
-              <ticks_f>2/4</ticks_f>
-              <text>oh</text>
+              <text>uh</text>
               </Lyrics>
             <Note>
               <pitch>65</pitch>
@@ -8210,13 +7708,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -10342,10 +9833,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>mf</subtype>
-            <velocity>80</velocity>
-            </Dynamic>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -10355,85 +9842,47 @@
               </prev>
             </Spanner>
           <Chord>
-            <dots>1</dots>
             <durationType>half</durationType>
-            <Lyrics>
-              <text>oo</text>
-              </Lyrics>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <text>too</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <Lyrics>
-              <text>oo</text>
-              </Lyrics>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <text>oh</text>
-              </Lyrics>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <ticks>720</ticks>
-              <ticks_f>3/8</ticks_f>
-              <text>oo</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
               </Note>
             </Chord>
           <Rest>
-            <durationType>16th</durationType>
+            <durationType>quarter</durationType>
             </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>ど</text>
-              </Lyrics>
+            <durationType>half</durationType>
             <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
-              <text>ん</text>
+              <text>どう</text>
               </Lyrics>
             <Note>
               <pitch>63</pitch>
@@ -10443,7 +9892,7 @@
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
-              <text>な</text>
+              <text>し</text>
               </Lyrics>
             <Note>
               <pitch>65</pitch>
@@ -10454,27 +9903,29 @@
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Lyrics>
-              <text>フレー</text>
+              <text>よう</text>
               </Lyrics>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>ズ</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
               <text>も</text>
+              </Lyrics>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <ticks>120</ticks>
+              <ticks_f>1/16</ticks_f>
+              <text>ない</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -10512,11 +9963,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Lyrics>
-              <ticks>480</ticks>
-              <ticks_f>1/4</ticks_f>
-              <text>ha</text>
-              </Lyrics>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -10536,433 +9982,6 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Chord>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <text>oo</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>fon</text>
-              </Lyrics>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>fon</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>fon</text>
-              </Lyrics>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>fon</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>fon</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>fon</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <ticks>480</ticks>
-              <ticks_f>1/4</ticks_f>
-              <text>wah</text>
-              </Lyrics>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>too</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <ticks>480</ticks>
-              <ticks_f>1/4</ticks_f>
-              <text>oh</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>half</durationType>
-            <Lyrics>
-              <text>ah</text>
-              </Lyrics>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <text>tun</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>ひ</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>と</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <text>り</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>き</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>り</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>の</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <ticks>1</ticks>
-              <ticks_f>1/1920</ticks_f>
-              <text>fu</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>ほ</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>う</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>が</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>き</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>らく</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>で</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>いい</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>や</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <ticks>240</ticks>
-              <ticks_f>1/8</ticks_f>
-              <text>oh</text>
-              </Lyrics>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <ticks>960</ticks>
-              <ticks_f>2/4</ticks_f>
-              <text>ah</text>
-              </Lyrics>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
           <Rest>
             <durationType>half</durationType>
             </Rest>
@@ -10979,19 +9998,72 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>eighth</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
-            <durationType>eighth</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
-            <durationType>eighth</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
-            <durationType>eighth</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -13354,10 +12426,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Dynamic>
-            <subtype>mf</subtype>
-            <velocity>80</velocity>
-            </Dynamic>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -13368,116 +12436,46 @@
             </Spanner>
           <Chord>
             <durationType>half</durationType>
-            <Lyrics>
-              <ticks>960</ticks>
-              <ticks_f>2/4</ticks_f>
-              <text>oo</text>
-              </Lyrics>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/2</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>too</text>
-              </Lyrics>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>half</durationType>
-            <Lyrics>
-              <text>oo</text>
-              </Lyrics>
-            <Note>
-              <pitch>56</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <ticks>240</ticks>
-              <ticks_f>1/8</ticks_f>
-              <text>oh</text>
-              </Lyrics>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <text>oo</text>
-              </Lyrics>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Rest>
-            <durationType>16th</durationType>
+            <durationType>quarter</durationType>
             </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>ど</text>
-              </Lyrics>
+            <durationType>half</durationType>
             <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
-              <text>ん</text>
+              <text>どう</text>
               </Lyrics>
             <Note>
               <pitch>58</pitch>
@@ -13487,7 +12485,7 @@
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
-              <text>な</text>
+              <text>し</text>
               </Lyrics>
             <Note>
               <pitch>58</pitch>
@@ -13498,7 +12496,7 @@
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Lyrics>
-              <text>フレー</text>
+              <text>よう</text>
               </Lyrics>
             <Note>
               <pitch>58</pitch>
@@ -13508,7 +12506,7 @@
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
-              <text>ズ</text>
+              <text>も</text>
               </Lyrics>
             <Note>
               <pitch>60</pitch>
@@ -13518,7 +12516,9 @@
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
-              <text>も</text>
+              <ticks>120</ticks>
+              <ticks_f>1/16</ticks_f>
+              <text>ない</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -13540,7 +12540,7 @@
       <Measure>
         <voice>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -13554,463 +12554,72 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <ticks>480</ticks>
-              <ticks_f>1/4</ticks_f>
-              <text>ha</text>
-              </Lyrics>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>56</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>oo</text>
-              </Lyrics>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>fon</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>fon</text>
-              </Lyrics>
-            <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>fon</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>fon</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>fon</text>
-              </Lyrics>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>fon</text>
-              </Lyrics>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>fon</text>
-              </Lyrics>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <ticks>480</ticks>
-              <ticks_f>1/4</ticks_f>
-              <text>wah</text>
-              </Lyrics>
-            <Note>
-              <pitch>56</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>56</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>too</text>
-              </Lyrics>
-            <Note>
-              <pitch>56</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>half</durationType>
-            <Lyrics>
-              <text>oh</text>
-              </Lyrics>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>half</durationType>
-            <Lyrics>
-              <text>ah</text>
-              </Lyrics>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <text>oo</text>
-              </Lyrics>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>tu</text>
-              </Lyrics>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>tun</text>
-              </Lyrics>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>ひ</text>
-              </Lyrics>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>と</text>
-              </Lyrics>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <text>り</text>
-              </Lyrics>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>き</text>
-              </Lyrics>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>り</text>
-              </Lyrics>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>の</text>
-              </Lyrics>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <ticks>1</ticks>
-              <ticks_f>1/1920</ticks_f>
-              <text>fu</text>
-              </Lyrics>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>ほ</text>
-              </Lyrics>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>う</text>
-              </Lyrics>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>が</text>
-              </Lyrics>
-            <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>き</text>
-              </Lyrics>
-            <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>らく</text>
-              </Lyrics>
-            <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>16th</durationType>
-            <Lyrics>
-              <text>で</text>
-              </Lyrics>
-            <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>いい</text>
-              </Lyrics>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>や</text>
-              </Lyrics>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>16th</durationType>
-            </Rest>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <text>oh</text>
-              </Lyrics>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Lyrics>
-              <ticks>960</ticks>
-              <ticks_f>2/4</ticks_f>
-              <text>ah</text>
-              </Lyrics>
-            <Note>
-              <pitch>56</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>half</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
           <Rest>
             <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15961,18 +14570,27 @@
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
+            <durationType>16th</durationType>
             <Note>
               <pitch>39</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>16th</durationType>
+            </Rest>
+          <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>39</pitch>
-              <tpc>11</tpc>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -16003,18 +14621,27 @@
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
-            <dots>1</dots>
-            <durationType>eighth</durationType>
+            <durationType>16th</durationType>
             <Note>
               <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>16th</durationType>
+            </Rest>
+          <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -16091,7 +14718,7 @@
               </Note>
             </Chord>
           <Chord>
-            <durationType>eighth</durationType>
+            <durationType>16th</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -16100,6 +14727,26 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-15/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -16107,6 +14754,14 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>15/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>44</pitch>
               <tpc>10</tpc>
               </Note>
@@ -16160,17 +14815,7 @@
       <Measure>
         <voice>
           <Chord>
-            <durationType>eighth</durationType>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>dm</text>
-              </Lyrics>
+            <durationType>quarter</durationType>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -16266,11 +14911,21 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>16th</durationType>
+            </Rest>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>16th</durationType>
             <Note>
               <pitch>41</pitch>
               <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           </voice>
@@ -16589,15 +15244,8 @@
               </Note>
             </Chord>
           <Rest>
-            <durationType>16th</durationType>
+            <durationType>eighth</durationType>
             </Rest>
-          <Chord>
-            <durationType>16th</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -16794,13 +15442,15 @@
             <durationType>16th</durationType>
             </Rest>
           <Chord>
-            <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>16th</durationType>
+            </Rest>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -17043,13 +15693,15 @@
             <durationType>16th</durationType>
             </Rest>
           <Chord>
-            <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>16th</durationType>
+            </Rest>
           <Rest>
             <durationType>16th</durationType>
             </Rest>
@@ -18134,9 +16786,15 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <Rest>
+          <Chord>
             <durationType>quarter</durationType>
-            </Rest>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
