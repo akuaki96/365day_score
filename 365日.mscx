@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="3.01">
-  <programVersion>3.3.4</programVersion>
-  <programRevision>7ea61d9</programRevision>
+<museScore version="3.02">
+  <programVersion>3.6.2</programVersion>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
+      <harmonyPlay>0</harmonyPlay>
       <concertPitch>1</concertPitch>
+      <usePre_3_6_defaults>1</usePre_3_6_defaults>
+      <defaultsVersion>301</defaultsVersion>
       <Spatium>1.76389</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -36,7 +39,7 @@
         <bracket type="0" span="6" col="0"/>
         </Staff>
       <trackName>Lead</trackName>
-      <Instrument>
+      <Instrument id="piano">
         <longName>Lead</longName>
         <shortName>Lead</shortName>
         <trackName>Piano</trackName>
@@ -89,12 +92,12 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="0"/>
           <program value="0"/>
-          <controller ctrl="7" value="102"/>
+          <controller ctrl="7" value="98"/>
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
           <program value="0"/>
-          <controller ctrl="7" value="102"/>
+          <controller ctrl="7" value="98"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -106,7 +109,7 @@
           </StaffType>
         </Staff>
       <trackName>1st</trackName>
-      <Instrument>
+      <Instrument id="piano">
         <longName>1st</longName>
         <shortName>1st</shortName>
         <trackName>ピアノ</trackName>
@@ -173,7 +176,7 @@
           </StaffType>
         </Staff>
       <trackName>2nd</trackName>
-      <Instrument>
+      <Instrument id="piano">
         <longName>2nd</longName>
         <shortName>2nd</shortName>
         <trackName>ピアノ</trackName>
@@ -240,7 +243,7 @@
           </StaffType>
         </Staff>
       <trackName>3rd</trackName>
-      <Instrument>
+      <Instrument id="piano">
         <longName>3rd</longName>
         <shortName>3rd</shortName>
         <trackName>ピアノ</trackName>
@@ -307,7 +310,7 @@
           </StaffType>
         </Staff>
       <trackName>bass</trackName>
-      <Instrument>
+      <Instrument id="piano">
         <longName>bass</longName>
         <shortName>bass</shortName>
         <trackName>ピアノ</trackName>
@@ -376,7 +379,7 @@
         <defaultClef>PERC</defaultClef>
         </Staff>
       <trackName>ドラムセット</trackName>
-      <Instrument>
+      <Instrument id="drumset">
         <longName>ドラムセット</longName>
         <shortName>D. Set</shortName>
         <trackName>ドラムセット</trackName>
@@ -610,7 +613,7 @@
           <controller ctrl="0" value="1"/>
           <controller ctrl="32" value="0"/>
           <program value="0"/>
-          <controller ctrl="7" value="95"/>
+          <controller ctrl="7" value="68"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -618,6 +621,7 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
+        <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
           <text>365日</text>
@@ -641,7 +645,7 @@
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>1.13333</tempo>
+            <tempo>1.1333299999999999</tempo>
             <followText>1</followText>
             <text><b></b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 68</b></text>
             </Tempo>
@@ -3567,8 +3571,7 @@
       <Measure>
         <voice>
           <SystemText>
-            <text>消えそうだけど消えない。
-そんな表現（４拍目で入ることで消えないこと暗示）
+            <text>消えそうだけど消えない感じ
 </text>
             </SystemText>
           <Chord>
@@ -4822,9 +4825,6 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Breath>
-            <symbol>breathMarkUpbow</symbol>
-            </Breath>
           </voice>
         </Measure>
       <Measure>
@@ -7597,7 +7597,7 @@
             <tempo>1</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 60</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 60</b></text>
             </Tempo>
           <StaffText>
             <offset x="-1.08847" y="-1.68901"/>
@@ -7683,10 +7683,10 @@
             <durationType>eighth</durationType>
             </Rest>
           <Tempo>
-            <tempo>0.833333</tempo>
+            <tempo>0.83333299999999999</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> =50</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="FreeSerif"></font> =50</b></text>
             </Tempo>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -7738,9 +7738,9 @@
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>0.916667</tempo>
+            <tempo>0.91666700000000001</tempo>
             <followText>1</followText>
-            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 55</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 55</b></text>
             </Tempo>
           <Harmony>
             <root>18</root>
@@ -8129,11 +8129,11 @@
 </text>
             </SystemText>
           <Tempo>
-            <tempo>0.833333</tempo>
+            <tempo>0.83333299999999999</tempo>
             <followText>1</followText>
             <visible>0</visible>
             <offset x="-1.5587" y="-5.68162"/>
-            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 50</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 50</b></text>
             </Tempo>
           <Chord>
             <durationType>eighth</durationType>
@@ -8228,7 +8228,7 @@
             <tempo>0.5</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 30
+            <text><b></b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 30
 </b></text>
             </Tempo>
           <Chord>
@@ -8258,11 +8258,11 @@
             <fractions>-1/8</fractions>
             </location>
           <Tempo>
-            <tempo>0.416667</tempo>
+            <tempo>0.41666700000000001</tempo>
             <followText>1</followText>
             <visible>0</visible>
             <offset x="3.19854" y="-8.65532"/>
-            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 25
+            <text><b></b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 25
 </b></text>
             </Tempo>
           <location>
@@ -8287,9 +8287,9 @@
       <Measure>
         <voice>
           <Tempo>
-            <tempo>0.916667</tempo>
+            <tempo>0.91666700000000001</tempo>
             <followText>1</followText>
-            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 55</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 55</b></text>
             </Tempo>
           <Rest>
             <durationType>quarter</durationType>
@@ -8366,7 +8366,7 @@
       <Measure>
         <voice>
           <TimeSig>
-            <sigN>5</sigN>
+            <sigN>6</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
@@ -8401,7 +8401,7 @@
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -9583,8 +9583,8 @@
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <ticks>960</ticks>
-              <ticks_f>2/4</ticks_f>
+              <ticks>2880</ticks>
+              <ticks_f>6/4</ticks_f>
               <text>whoo</text>
               </Lyrics>
             <Note>
@@ -9634,6 +9634,9 @@
             </Breath>
           <Chord>
             <durationType>16th</durationType>
+            <Lyrics>
+              <text>つ</text>
+              </Lyrics>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
@@ -10697,6 +10700,9 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Breath>
+            <symbol>breathMarkUpbow</symbol>
+            </Breath>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -10727,9 +10733,6 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Breath>
-            <symbol>breathMarkUpbow</symbol>
-            </Breath>
           </voice>
         </Measure>
       <Measure>
@@ -10827,6 +10830,9 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Breath>
+            <symbol>breathMarkUpbow</symbol>
+            </Breath>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -12914,7 +12920,7 @@
       <Measure>
         <voice>
           <TimeSig>
-            <sigN>5</sigN>
+            <sigN>6</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Dynamic>
@@ -12940,7 +12946,7 @@
               </HairPin>
             <next>
               <location>
-                <fractions>5/8</fractions>
+                <fractions>3/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -12964,8 +12970,15 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -12978,13 +12991,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-5/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
           </voice>
         </Measure>
       </Staff>
@@ -14191,8 +14197,8 @@
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <ticks>960</ticks>
-              <ticks_f>2/4</ticks_f>
+              <ticks>2880</ticks>
+              <ticks_f>6/4</ticks_f>
               <text>whoo</text>
               </Lyrics>
             <Note>
@@ -15410,6 +15416,9 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Breath>
+            <symbol>breathMarkUpbow</symbol>
+            </Breath>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -17735,7 +17744,7 @@
       <Measure>
         <voice>
           <TimeSig>
-            <sigN>5</sigN>
+            <sigN>6</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Dynamic>
@@ -17758,7 +17767,7 @@
               </HairPin>
             <next>
               <location>
-                <fractions>3/4</fractions>
+                <fractions>1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -17805,8 +17814,15 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -17819,13 +17835,6 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           </voice>
         </Measure>
       </Staff>
@@ -19101,8 +19110,8 @@
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <ticks>960</ticks>
-              <ticks_f>2/4</ticks_f>
+              <ticks>2880</ticks>
+              <ticks_f>6/4</ticks_f>
               <text>whoo</text>
               </Lyrics>
             <Note>
@@ -20573,6 +20582,9 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Breath>
+            <symbol>breathMarkUpbow</symbol>
+            </Breath>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -21127,6 +21139,9 @@
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
+            <Lyrics>
+              <text>ah</text>
+              </Lyrics>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -23016,7 +23031,7 @@
       <Measure>
         <voice>
           <TimeSig>
-            <sigN>5</sigN>
+            <sigN>6</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Dynamic>
@@ -23040,7 +23055,7 @@
               </HairPin>
             <next>
               <location>
-                <fractions>7/8</fractions>
+                <fractions>5/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -23086,8 +23101,15 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -23100,13 +23122,6 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-7/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
           </voice>
         </Measure>
       </Staff>
@@ -24281,6 +24296,11 @@
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
+            <Lyrics>
+              <ticks>2880</ticks>
+              <ticks_f>6/4</ticks_f>
+              <text>whoo</text>
+              </Lyrics>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -27595,7 +27615,7 @@
       <Measure>
         <voice>
           <TimeSig>
-            <sigN>5</sigN>
+            <sigN>6</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Dynamic>
@@ -27628,7 +27648,7 @@
               </HairPin>
             <next>
               <location>
-                <fractions>1/1</fractions>
+                <fractions>3/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -27674,8 +27694,15 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -27688,13 +27715,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-1/1</fractions>
-                </location>
-              </prev>
-            </Spanner>
           </voice>
         </Measure>
       </Staff>
@@ -29174,12 +29194,12 @@
       <Measure>
         <voice>
           <TimeSig>
-            <sigN>5</sigN>
+            <sigN>6</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>5/4</duration>
+            <duration>6/4</duration>
             </Rest>
           </voice>
         </Measure>
