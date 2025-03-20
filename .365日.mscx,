@@ -5301,9 +5301,6 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
-          <SystemText>
-            <text>らー？らっ？</text>
-            </SystemText>
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
@@ -11078,9 +11075,6 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Breath>
-            <symbol>breathMarkUpbow</symbol>
-            </Breath>
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
@@ -15745,9 +15739,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Breath>
-            <symbol>breathMarkUpbow</symbol>
-            </Breath>
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
@@ -20832,9 +20823,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Breath>
-            <symbol>breathMarkUpbow</symbol>
-            </Breath>
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
@@ -28304,7 +28292,6 @@
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
-            <offset x="5" y="-1.37735"/>
             <durationType>quarter</durationType>
             </Rest>
           </voice>
